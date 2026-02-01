@@ -1,0 +1,3 @@
+[submodule ".vim/pack/devel"]
+	path = .vim/pack/devel
+	url = https://github.com/lifepillar/vim-devel

@@ -1,0 +1,148 @@
+; ========== Metadata ==========
+Short name:    void
+Full name:     voidslvt's theme
+Author:        voidslvt
+Version:       1.0
+Environments:  gui 256
+Background:    dark
+
+; ========== Colors ==========
+; Color: <name> <hex> <256>
+; press `ga` to get 256 color for hex
+Color: yellow #d7d787 186
+Color: violet #800080 90
+Color: green #008700 28
+Color: red #af0000 124
+Color: blue #005fd7 26
+Color: black #000000 16
+Color: dark_gray #1c1c1c 234
+Color: gray #404040 236
+Color: light_gray #808080 244
+Color: orange #ff5f00 202
+Color: ui_text #ffffff 15
+Color: white #ffffff 231
+
+; ==========  Groups ========== 
+; <GroupName> <fg> <bg> <opts>
+; <opts>: bold,italic,underline,strikethrough
+; also refer to pintovim.dev for class names
+; to create link:
+; <GroupName> -> <ParentGroupName>
+
+; --- major ---
+Normal ui_text black
+Comment light_gray none
+Constant blue none
+Identifier green none
+Statement blue none
+PreProc violet none
+Type green none
+Special ui_text none
+Underlined ui_text none underline
+Ignore gray none italic
+Error red none underline
+Todo ui_text blue
+
+; --- minor ---
+String green none
+Character ui_text none
+Number yellow none
+Boolean violet none
+Float yellow none
+Function yellow none italic
+Conditional violet none
+Repeat violet none
+Operator blue none
+Keyword violet none
+Exception red none
+Include violet none italic
+Define violet none italic
+PreCondit violet none italic
+StorageClass blue none
+Structure blue none
+Typedef blue none
+
+; --- misc ---
+Cursor black white
+Cursorline none  dark_gray
+EndOfBuffer dark_gray none
+ErrorMsg red none
+VertSplit ui_text none bold
+IncSearch orange none
+LineNr gray none
+CursorLineNr orange none bold
+MatchParen ui_text orange
+Search orange none
+WarningMsg red none
+Visual none gray
+StatusLine ui_text none bold
+StatusLineNC light_gray none
+WildMenu black white
+
+; --- python ---
+pythonDecorator -> Function
+pythonDecoratorName -> Function
+pythonFunction -> Function
+pythonComment -> Comment
+pythonString -> String
+pythonEscape -> String
+pythonNumber -> Normal
+pythonStatement blue none bold
+pythonRepeat blue none bold
+pythonOperator blue none bold
+pythonException red none bold
+pythonInclude -> Include
+pythonAsync red none
+pythonTodo -> Todo
+pythonQuotes -> String
+pythonTripleQuotes -> String
+pythonBuiltin -> Include
+pythonExceptions red none bold
+
+; --- json ---
+jsonKeyword blue none
+jsonString ui_text none
+jsonStringSQError red none underline
+jsonEscape ui_text none
+jsonNumber yellow none
+jsonNoQuotesError red none underline
+jsonTripleQuotesError red none underline
+jsonNumError red none underline
+jsonCommentError red none underline
+jsonSemicolonError red none underline
+jsonTrailingCommaError red none underline
+jsonMissingCommaError red none underline
+jsonBoolean violet none
+jsonBraces red none
+jsonNull violet none
+jsonQuote ui_text none
+jsonKeywordMatch ui_text none
+jsonNoise ui_text none
+
+; --- yaml ---
+yamlComment -> Comment
+yamlBlockMappingKey blue none
+yamlInteger yellow none
+yamlFloat yellow none
+yamlNull violet none
+yamlBool violet none
+yamlConstant green none
+yamlBlockCollectionItemStart ui_text none
+yamlFlowString ui_text none
+yamlFlowStringDelimiter ui_text none
+
+; --- toml ---
+tomlEscape ui_text none
+tomlLineEscape ui_text none
+tomlString ui_text none
+tomlInteger yellow none
+tomlFloat yellow none
+tomlBoolean violet none
+tomlDate ui_text none
+tomlKey blue none
+tomlTable red none
+tomlTableArray red none
+tomlKeyValueArray ui_text none
+tomlArray red none
+tomlComment -> Comment
+tomlTodo -> Todo
