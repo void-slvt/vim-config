@@ -1,7 +1,6 @@
 vim9script
 
-# Name:         Void Theme
-# Version:      1.0
+# Name:         voidslvt's theme
 # Author:       voidslvt
 # Last Change:  2026 Feb 01
 
@@ -28,9 +27,9 @@ hi! link tomlComment Comment
 hi! link tomlTodo Todo
 hi! link yamlComment Comment
 
-hi Normal guifg=#ffffff guibg=#000000 guisp=NONE gui=NONE ctermfg=15 ctermbg=16 cterm=NONE
+hi Normal guifg=#ffffff guibg=#000000 guisp=NONE gui=NONE ctermfg=231 ctermbg=16 cterm=NONE
 hi Boolean guifg=#800080 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE
-hi Character guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi Character guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
 hi Comment guifg=#808080 guibg=NONE guisp=NONE gui=NONE ctermfg=244 ctermbg=NONE cterm=NONE
 hi Conditional guifg=#800080 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE
 hi Constant guifg=#005fd7 guibg=NONE guisp=NONE gui=NONE ctermfg=26 ctermbg=NONE cterm=NONE
@@ -43,50 +42,53 @@ hi Error guifg=#af0000 guibg=NONE guisp=NONE gui=underline ctermfg=124 ctermbg=N
 hi ErrorMsg guifg=#af0000 guibg=NONE guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=NONE
 hi Exception guifg=#af0000 guibg=NONE guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=NONE
 hi Float guifg=#d7d787 guibg=NONE guisp=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
-hi Function guifg=#d7d787 guibg=NONE guisp=NONE gui=italic ctermfg=186 ctermbg=NONE cterm=italic
+hi Function guifg=#d7d787 guibg=NONE guisp=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
+hi HighlightedyankRegion guifg=#ffffff guibg=#ff5f00 guisp=NONE gui=NONE ctermfg=231 ctermbg=202 cterm=NONE
 hi Identifier guifg=#008700 guibg=NONE guisp=NONE gui=NONE ctermfg=28 ctermbg=NONE cterm=NONE
-hi Ignore guifg=#404040 guibg=NONE guisp=NONE gui=italic ctermfg=236 ctermbg=NONE cterm=italic
+hi Ignore guifg=#404040 guibg=NONE guisp=NONE gui=italic ctermfg=238 ctermbg=NONE cterm=italic
 hi IncSearch guifg=#ff5f00 guibg=NONE guisp=NONE gui=NONE ctermfg=202 ctermbg=NONE cterm=NONE
 hi Include guifg=#800080 guibg=NONE guisp=NONE gui=italic ctermfg=90 ctermbg=NONE cterm=italic
 hi Keyword guifg=#800080 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE
-hi LineNr guifg=#404040 guibg=NONE guisp=NONE gui=NONE ctermfg=236 ctermbg=NONE cterm=NONE
-hi MatchParen guifg=#ffffff guibg=#ff5f00 guisp=NONE gui=NONE ctermfg=15 ctermbg=202 cterm=NONE
+hi LineNr guifg=#404040 guibg=NONE guisp=NONE gui=NONE ctermfg=238 ctermbg=NONE cterm=NONE
+hi MatchParen guifg=#ffffff guibg=#ff5f00 guisp=NONE gui=NONE ctermfg=231 ctermbg=202 cterm=NONE
+hi MoreMsg guifg=#800080 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE
 hi Number guifg=#d7d787 guibg=NONE guisp=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi Operator guifg=#005fd7 guibg=NONE guisp=NONE gui=NONE ctermfg=26 ctermbg=NONE cterm=NONE
 hi PreCondit guifg=#800080 guibg=NONE guisp=NONE gui=italic ctermfg=90 ctermbg=NONE cterm=italic
 hi PreProc guifg=#800080 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE
+hi Question guifg=#008700 guibg=NONE guisp=NONE gui=NONE ctermfg=28 ctermbg=NONE cterm=NONE
 hi Repeat guifg=#800080 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE
 hi Search guifg=#ff5f00 guibg=NONE guisp=NONE gui=NONE ctermfg=202 ctermbg=NONE cterm=NONE
-hi Special guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi Special guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
 hi Statement guifg=#005fd7 guibg=NONE guisp=NONE gui=NONE ctermfg=26 ctermbg=NONE cterm=NONE
-hi StatusLine guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
+hi StatusLine guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=231 ctermbg=NONE cterm=bold
 hi StatusLineNC guifg=#808080 guibg=NONE guisp=NONE gui=NONE ctermfg=244 ctermbg=NONE cterm=NONE
 hi StorageClass guifg=#005fd7 guibg=NONE guisp=NONE gui=NONE ctermfg=26 ctermbg=NONE cterm=NONE
 hi String guifg=#008700 guibg=NONE guisp=NONE gui=NONE ctermfg=28 ctermbg=NONE cterm=NONE
 hi Structure guifg=#005fd7 guibg=NONE guisp=NONE gui=NONE ctermfg=26 ctermbg=NONE cterm=NONE
-hi Todo guifg=#ffffff guibg=#005fd7 guisp=NONE gui=NONE ctermfg=15 ctermbg=26 cterm=NONE
+hi Todo guifg=#ffffff guibg=#005fd7 guisp=NONE gui=NONE ctermfg=231 ctermbg=26 cterm=NONE
 hi Type guifg=#008700 guibg=NONE guisp=NONE gui=NONE ctermfg=28 ctermbg=NONE cterm=NONE
 hi Typedef guifg=#005fd7 guibg=NONE guisp=NONE gui=NONE ctermfg=26 ctermbg=NONE cterm=NONE
-hi Underlined guifg=#ffffff guibg=NONE guisp=NONE gui=underline ctermfg=15 ctermbg=NONE cterm=underline
-hi VertSplit guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
-hi Visual guifg=NONE guibg=#404040 guisp=NONE gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
-hi WarningMsg guifg=#af0000 guibg=NONE guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=NONE
+hi Underlined guifg=#ffffff guibg=NONE guisp=NONE gui=underline ctermfg=231 ctermbg=NONE cterm=underline
+hi VertSplit guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=231 ctermbg=NONE cterm=bold
+hi Visual guifg=NONE guibg=#404040 guisp=NONE gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
+hi WarningMsg guifg=#d7d787 guibg=NONE guisp=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi WildMenu guifg=#000000 guibg=#ffffff guisp=NONE gui=NONE ctermfg=16 ctermbg=231 cterm=NONE
 hi jsonBoolean guifg=#800080 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE
 hi jsonBraces guifg=#af0000 guibg=NONE guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=NONE
 hi jsonCommentError guifg=#af0000 guibg=NONE guisp=NONE gui=underline ctermfg=124 ctermbg=NONE cterm=underline
-hi jsonEscape guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi jsonEscape guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
 hi jsonKeyword guifg=#005fd7 guibg=NONE guisp=NONE gui=NONE ctermfg=26 ctermbg=NONE cterm=NONE
-hi jsonKeywordMatch guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi jsonKeywordMatch guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
 hi jsonMissingCommaError guifg=#af0000 guibg=NONE guisp=NONE gui=underline ctermfg=124 ctermbg=NONE cterm=underline
 hi jsonNoQuotesError guifg=#af0000 guibg=NONE guisp=NONE gui=underline ctermfg=124 ctermbg=NONE cterm=underline
-hi jsonNoise guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi jsonNoise guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
 hi jsonNull guifg=#800080 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE
 hi jsonNumError guifg=#af0000 guibg=NONE guisp=NONE gui=underline ctermfg=124 ctermbg=NONE cterm=underline
 hi jsonNumber guifg=#d7d787 guibg=NONE guisp=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
-hi jsonQuote guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi jsonQuote guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
 hi jsonSemicolonError guifg=#af0000 guibg=NONE guisp=NONE gui=underline ctermfg=124 ctermbg=NONE cterm=underline
-hi jsonString guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi jsonString guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
 hi jsonStringSQError guifg=#af0000 guibg=NONE guisp=NONE gui=underline ctermfg=124 ctermbg=NONE cterm=underline
 hi jsonTrailingCommaError guifg=#af0000 guibg=NONE guisp=NONE gui=underline ctermfg=124 ctermbg=NONE cterm=underline
 hi jsonTripleQuotesError guifg=#af0000 guibg=NONE guisp=NONE gui=underline ctermfg=124 ctermbg=NONE cterm=underline
@@ -98,23 +100,23 @@ hi pythonRepeat guifg=#005fd7 guibg=NONE guisp=NONE gui=bold ctermfg=26 ctermbg=
 hi pythonStatement guifg=#005fd7 guibg=NONE guisp=NONE gui=bold ctermfg=26 ctermbg=NONE cterm=bold
 hi tomlArray guifg=#af0000 guibg=NONE guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=NONE
 hi tomlBoolean guifg=#800080 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE
-hi tomlDate guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
-hi tomlEscape guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi tomlDate guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
+hi tomlEscape guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
 hi tomlFloat guifg=#d7d787 guibg=NONE guisp=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi tomlInteger guifg=#d7d787 guibg=NONE guisp=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi tomlKey guifg=#005fd7 guibg=NONE guisp=NONE gui=NONE ctermfg=26 ctermbg=NONE cterm=NONE
-hi tomlKeyValueArray guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
-hi tomlLineEscape guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
-hi tomlString guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi tomlKeyValueArray guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
+hi tomlLineEscape guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
+hi tomlString guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
 hi tomlTable guifg=#af0000 guibg=NONE guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=NONE
 hi tomlTableArray guifg=#af0000 guibg=NONE guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=NONE
-hi yamlBlockCollectionItemStart guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi yamlBlockCollectionItemStart guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
 hi yamlBlockMappingKey guifg=#005fd7 guibg=NONE guisp=NONE gui=NONE ctermfg=26 ctermbg=NONE cterm=NONE
 hi yamlBool guifg=#800080 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE
 hi yamlConstant guifg=#008700 guibg=NONE guisp=NONE gui=NONE ctermfg=28 ctermbg=NONE cterm=NONE
 hi yamlFloat guifg=#d7d787 guibg=NONE guisp=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
-hi yamlFlowString guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
-hi yamlFlowStringDelimiter guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi yamlFlowString guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
+hi yamlFlowStringDelimiter guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
 hi yamlInteger guifg=#d7d787 guibg=NONE guisp=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi yamlNull guifg=#800080 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE
 

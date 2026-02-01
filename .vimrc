@@ -5,12 +5,13 @@ filetype plugin indent on
 " Интерфейс
 set number              " Показать номера строк
 " set relativecolumn      " (Опционально) Относительные номера для быстрых прыжков
-set cursorline          " Подсвечивать текущую строку
+" set cursorline          " Подсвечивать текущую строку
 set termguicolors       " Поддержка 24-битного цвета (если терминал позволяет)
 set mouse=a
 set splitright   " Вертикальные сплиты открываются справа
 set splitbelow   " Горизонтальные сплиты открываются снизу
-colorscheme void
+" colorscheme void " моя тема
+colorscheme apple " на базе Apple System Colors
 
 " Поиск
 set hlsearch            " Подсвечивать совпадения
@@ -37,3 +38,7 @@ function! GetSyntaxGroup()
 endfunction
 
 nnoremap z :call GetSyntaxGroup()<CR>
+
+" Подсветка скопированного текста
+let g:highlightedyank_max_lines = 1000
+let g:highlightedyank_highlight_duration = 200

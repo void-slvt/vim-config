@@ -1,6 +1,6 @@
 ; ========== Metadata ==========
-Short name:    void
-Full name:     voidslvt's theme
+Short name:    apple
+Full name:     Apple System Color Theme
 Author:        voidslvt
 Environments:  gui 256
 Background:    dark
@@ -8,15 +8,16 @@ Background:    dark
 ; ========== Colors ==========
 ; Color: <name> <hex> <256>
 ; press `ga` to get 256 color for hex
-Color: yellow #d7d787 186
-Color: violet #800080 90
-Color: green #008700 28
-Color: red #af0000 124
-Color: blue #005fd7 26
+Color: yellow #cdac08 178
+Color: violet #9647bf 128
+Color: green #26a439 34
+Color: red #cc372e 160
+Color: blue #0869cb 26
 Color: black #000000 16
 Color: dark_gray #1c1c1c 234
 Color: gray #404040 238
 Color: light_gray #808080 244
+Color: cyan #479ec2 74
 Color: orange #ff5f00 202
 Color: ui_text #ffffff 231
 Color: white #ffffff 231
@@ -40,7 +41,7 @@ Special ui_text none
 Underlined ui_text none underline
 Ignore gray none italic
 Error red none underline
-Todo ui_text blue
+Todo ui_text cyan
 
 ; --- minor ---
 String green none
