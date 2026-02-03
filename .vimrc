@@ -3,13 +3,12 @@ syntax on
 filetype plugin indent on
 
 " Интерфейс
-set number              " Показать номера строк
-" set relativecolumn      " (Опционально) Относительные номера для быстрых прыжков
-" set cursorline          " Подсвечивать текущую строку
+set number
 set termguicolors       " Поддержка 24-битного цвета (если терминал позволяет)
 set mouse=a
 set splitright   " Вертикальные сплиты открываются справа
 set splitbelow   " Горизонтальные сплиты открываются снизу
+set nowrap
 colorscheme apple
 
 " Поиск
@@ -18,7 +17,7 @@ set incsearch           " Искать по мере набора
 set ignorecase          " Игнорировать регистр при поиске
 set smartcase           " ...но учитывать его, если есть заглавные буквы
 
-" Отступы (Табы — это пробелы, 4 штуки)
+" Отступы
 set expandtab
 set shiftwidth=4
 set softtabstop=4
@@ -28,7 +27,8 @@ set smartindent
 " Служебное
 set encoding=utf-8
 set undofile            " Сохранять историю изменений после закрытия файла
-set clipboard=unnamed,unnamedplus " Использовать системный буфер обмена
+set undodir=~/.vim/.undo
+set clipboard=unnamed,unnamedplus
 
 " Показать highlight группу при нажатии z
 function! GetSyntaxGroup()
