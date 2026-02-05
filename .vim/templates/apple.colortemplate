@@ -84,8 +84,8 @@ WildMenu black white
 HighlightedyankRegion white orange
 
 ; --- python ---
-pythonDecorator -> Function
-pythonDecoratorName -> Function
+pythonDecorator -> Include
+pythonDecoratorName -> Include
 pythonFunction -> Function
 pythonComment -> Comment
 pythonString -> String
@@ -102,6 +102,11 @@ pythonQuotes -> String
 pythonTripleQuotes -> String
 pythonBuiltin -> Include
 pythonExceptions red none bold
+pythonBoolean -> pythonBuiltin
+pythonConditional -> pythonOperator
+pythonClassVar -> Normal
+pythonFStringDelimiter -> String
+pythonFStringField -> String
 
 ; --- json ---
 jsonKeyword blue none
